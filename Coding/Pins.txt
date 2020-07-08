@@ -1,0 +1,64 @@
+Raspberry Pi PINS = {
+    1 : 3.3V
+    2 : 5V
+    3 : i2c_data = PulseOximeter_Data
+    4 : 5V
+    5 : i2c_clock = PulseOximeter_Clk
+    6 : GND
+    7 : GPIO(4) = Buzzer
+    8 : Tx
+    9 : GND
+    10 : Rx
+    11 : GPIO(17) = Ultrasonic_Trigger
+    12 : GPIO(18) = S/w_SPI-CLK(SCLK)
+    13 : GPIO(27) = Ultrasonic_Echo
+    14 : GND
+    15 : GPIO(22) = 
+    16 : GPIO(23) = S/w_MISO(DOUT)
+    17 : 3.3V
+    18 : GPIO(24) = S/w_MOSI (DIN)
+    19 : H/w_MOSI = TouchDisplay(19)
+    20 : GND
+    21 : H/w_MISO = TouchDisplay(21)
+    22 : TP_Interrupt = TouchDisplay(22)
+    23 : H/w_SPIclock = TouchDisplay(23)
+    24 : GPIO(8) = 
+    25 : GND
+    26 : H/w_CS = TouchDisplay(26)
+    27 : DNC
+    28 : DNC
+    29 : GPIO(5) = S/w_CS(SHDN)
+    30 : GND
+    31 : GPIO(6) = 
+    32 : GPIO(12) = 
+    33 : GPIO(13) = 
+    34 : GND
+    35 : GPIO(19) = 
+    36 : GPIO(16) = 
+    37 : GPIO(26) = 
+    38 : GPIO(20) = 
+    39 : GND
+    40 : GPIO(21) = 
+}
+
+
+MCPIC3008 = {
+    1 : Channel-0 = 
+    2 : Channel-1 = ECG_IN
+    3 : Channel-2 = 
+    4 : Channel-3 = 
+    5 : Channel-4 = 
+    6 : Channel-5 = 
+    7 : Channel-6 = 
+    8 : Channel-7 = PulseRate_In
+    9 : DGND
+    10 : SHDN
+    11 : DIN
+    12 : DOUT
+    13 : SCLK
+    14 : AGND
+    15 : VREF(5V)
+    16 : VDD(5V)
+}
+
+
